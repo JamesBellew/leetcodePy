@@ -2,39 +2,22 @@
 class Solution(object):
     def longestCommonPrefix(self, strs):
          firstWord=list(strs[0])
-         prefix = strs[0]
-         l=0
-         for i in range(1, len(strs)):
-             print(firstWord[l])
-             print(strs[i])
-             if(firstWord[l]==strs[i][l]):
-                 print('good')
-                 l+=1
+         p=0
 
-         s=0
-         t=0
-         if len(strs)==1:
-            return ""   
-            
 
-        
-        # secondWord=list(strs[1])
-        # thirdWord=list(strs[2])
-        # pointers
-      
-       
-       
-         
-
-        # for lets in firstWord:
-            # if(lets==secondWord[s] and lets==thirdWord[t]):
-            #     prefix.append(lets)
-            #     s+=1
-            #     t+=1
-            # else:
-            #     return ''.join(prefix)
-            # print(lets)
+         for i in range(1,len(strs)):
+              print(strs[i])
+              for r in range(len(strs[i])):
+                
+                   print('other',strs[i][r])
+                   print('base',firstWord[p])
+                #    if strs[i][r] == firstWord[p]:
+                #         print('good')
+                #    else:
+                #         print('no')
+                        
          return("")
+                   
         
       
 # Testing the function
