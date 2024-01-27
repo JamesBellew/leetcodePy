@@ -25,7 +25,7 @@ class Solution(object):
 
 
         # for items in range(len(input_str)):
-            # pointer += items  
+            # pointer += items  testing
             # if input_str[items] in Romans:
             #     if input_str[items] == "I" and (items + 1 < len(input_str)) and (input_str[items + 1] == "X"):                                                             
             #         total += Romans[input_str[items + 1]] - Romans[input_str[items]]
