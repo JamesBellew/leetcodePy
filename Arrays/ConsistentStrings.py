@@ -12,7 +12,7 @@ class Solution(object):
                     if count == len(words[i]):
                         output +=1
         return output
-# Testing the function
+# Testing the function booi
 solution = Solution()
 result = solution.countConsistentStrings("cad",["cc","acd","b","ba","bac","bad","ac","d"])
 print(result)
